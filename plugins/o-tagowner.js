@@ -9,7 +9,7 @@ Gak usah Malu-malu
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
-handler.customPrefix = /@62895336282144 |@62895336282144/i
+handler.customPrefix = /@6287837703726 |@6287837703726/i
 handler.command = new RegExp
 
 module.exports = handler
