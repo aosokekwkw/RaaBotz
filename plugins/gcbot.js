@@ -26,17 +26,17 @@ let fetch = require('node-fetch')
              externalAdReply: { 
                sourceUrl: 'https://youtu.be/RlhkqeUDZrA', 
                title: 'Official group', 
-               body: 'Raa Bot', 
+               body: 'Fauzi Bot', 
                thumbnail: pp 
              } 
          }}) 
      } catch (e) { 
          let tulisan = ` 
- *Claraa Bot!* 
+ *Fauzi Bot!* 
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
-https://chat.whatsapp.com/Gapunya
+https://chat.whatsapp.com/FE9BpxtDREQJJPF9YEgzWp
  
  `.trim() 
      await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
@@ -45,7 +45,7 @@ https://chat.whatsapp.com/Gapunya
         externalAdReply: {
         	sourceUrl: 'https://instagram.com/inizenscuy/',
             title: 'Gruop Official',
-            body: '© RaaBotz-MD By Claraa San',
+            body: '© FauziBotz-MD',
           thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
         }
      }
